@@ -14,8 +14,8 @@ header {
     overflow: hidden;
 }
 
-.home-page header, .new-post-page header  {
-    background-image: url(/assets/banner.jpeg);
+.home-page header, .new-post-page header, .post-container header  {
+    background-image: url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2880&q=80');
 }
 
 .post-link {
@@ -88,7 +88,7 @@ header::before {
     height: 100px;
     background-color: white;
     border-radius: 50%;
-    background-image: url(/assets/profile.png);
+    background-image: url(../assets/profile.jpg);
     background-size: cover;
 }
 
